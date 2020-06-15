@@ -1,0 +1,15 @@
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Measurement.UI\bin\Debug\Measurement.UI.exe.config
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Measurement.UI\bin\Debug\Measurement.UI.exe
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Measurement.UI\bin\Debug\Measurement.UI.pdb
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Measurement.UI\obj\Debug\Measurement.UI.csprojAssemblyReference.cache
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Measurement.UI\obj\Debug\MainWindow.g.cs
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Measurement.UI\obj\Debug\App.g.cs
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Measurement.UI\obj\Debug\Measurement.UI_MarkupCompile.cache
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Measurement.UI\obj\Debug\Measurement.UI_MarkupCompile.lref
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Measurement.UI\obj\Debug\MainWindow.baml
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Measurement.UI\obj\Debug\Measurement.UI.g.resources
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Measurement.UI\obj\Debug\Measurement.UI.Properties.Resources.resources
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Measurement.UI\obj\Debug\Measurement.UI.csproj.GenerateResource.cache
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Measurement.UI\obj\Debug\Measurement.UI.csproj.CoreCompileInputs.cache
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Measurement.UI\obj\Debug\Measurement.UI.exe
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Measurement.UI\obj\Debug\Measurement.UI.pdb

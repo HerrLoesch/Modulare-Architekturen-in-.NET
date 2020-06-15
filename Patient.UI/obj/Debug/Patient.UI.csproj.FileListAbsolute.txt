@@ -1,0 +1,13 @@
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Patient.UI\bin\Debug\Patient.UI.dll
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Patient.UI\bin\Debug\Patient.UI.pdb
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Patient.UI\obj\Debug\Patient.UI.csprojAssemblyReference.cache
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Patient.UI\obj\Debug\UserControl1.g.cs
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Patient.UI\obj\Debug\Patient.UI_MarkupCompile.cache
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Patient.UI\obj\Debug\Patient.UI_MarkupCompile.lref
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Patient.UI\obj\Debug\UserControl1.baml
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Patient.UI\obj\Debug\Patient.UI.g.resources
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Patient.UI\obj\Debug\Patient.UI.Properties.Resources.resources
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Patient.UI\obj\Debug\Patient.UI.csproj.GenerateResource.cache
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Patient.UI\obj\Debug\Patient.UI.csproj.CoreCompileInputs.cache
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Patient.UI\obj\Debug\Patient.UI.dll
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Patient.UI\obj\Debug\Patient.UI.pdb

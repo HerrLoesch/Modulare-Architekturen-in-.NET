@@ -1,0 +1,6 @@
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Analysis.Interfaces\obj\Debug\Analysis.Interfaces.csprojAssemblyReference.cache
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Analysis.Interfaces\obj\Debug\_EmptyResource.resources
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Analysis.Interfaces\obj\Debug\Analysis.Interfaces.csproj.GenerateResource.cache
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Analysis.Interfaces\obj\Debug\Analysis.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Analysis.Interfaces\obj\Debug\Analysis.Interfaces.dll
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Analysis.Interfaces\obj\Debug\Analysis.Interfaces.pdb

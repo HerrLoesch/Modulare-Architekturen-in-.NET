@@ -1,0 +1,6 @@
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Analysis.Data\obj\Debug\Analysis.Data.csprojAssemblyReference.cache
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Analysis.Data\obj\Debug\_EmptyResource.resources
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Analysis.Data\obj\Debug\Analysis.Data.csproj.GenerateResource.cache
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Analysis.Data\obj\Debug\Analysis.Data.csproj.CoreCompileInputs.cache
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Analysis.Data\obj\Debug\Analysis.Data.dll
+C:\Users\hendrik.loesch\Source\Repos\Medizinsoftware\Analysis.Data\obj\Debug\Analysis.Data.pdb
