@@ -88,9 +88,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Measurement.Interfaces\Measurement.Interfaces.csproj">
-      <Project>{9b4e8fe2-1e6d-4a1c-95cb-9780d9945b28}</Project>
-      <Name>Measurement.Interfaces</Name>
+    <ProjectReference Include="..\Analysis.Interfaces\Analysis.Interfaces.csproj">
+      <Project>{74c86831-5b58-44e5-9e10-1aa1fb12f776}</Project>
+      <Name>Analysis.Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
