@@ -45,7 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Analysis.Interfaces\Analysis.Interfaces.csproj">
-      <Project>{46e01483-7287-4a89-8a1d-450c5536f4c6}</Project>
+      <Project>{74c86831-5b58-44e5-9e10-1aa1fb12f776}</Project>
       <Name>Analysis.Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
