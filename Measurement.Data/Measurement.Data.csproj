@@ -43,5 +43,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Measurement.Interfaces\Measurement.Interfaces.csproj">
+      <Project>{9b4e8fe2-1e6d-4a1c-95cb-9780d9945b28}</Project>
+      <Name>Measurement.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

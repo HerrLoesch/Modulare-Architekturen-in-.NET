@@ -43,5 +43,27 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Medizinsoftware.Infrastructure.Interfaces\Infrastructure.Interfaces.csproj">
+      <Project>{2898556e-125b-4125-8850-c286581362ef}</Project>
+      <Name>Infrastructure.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Patient.Data\Patient.Data.csproj">
+      <Project>{bea3c7d1-bbbc-435a-9e9b-06114094f6ee}</Project>
+      <Name>Patient.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Patient.Interfaces\Patient.Interfaces.csproj">
+      <Project>{7171c5e0-75fa-4143-b969-e5247404d922}</Project>
+      <Name>Patient.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Patient.Logic\Patient.Logic.csproj">
+      <Project>{f56a2749-ca58-4c8b-98fa-d2a22a2564ec}</Project>
+      <Name>Patient.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Patient.UI\Patient.UI.csproj">
+      <Project>{ef085054-4600-4e34-b767-aef1e8dd3b96}</Project>
+      <Name>Patient.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

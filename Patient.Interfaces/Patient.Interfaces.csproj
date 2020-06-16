@@ -43,11 +43,5 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Medizinsoftware.Infrastructure.Interfaces\Medizinsoftware.Infrastructure.Interfaces.csproj">
-      <Project>{2898556e-125b-4125-8850-c286581362ef}</Project>
-      <Name>Medizinsoftware.Infrastructure.Interfaces</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

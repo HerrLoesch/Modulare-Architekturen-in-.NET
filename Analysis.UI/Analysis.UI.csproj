@@ -70,5 +70,11 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Analysis.Interfaces\Analysis.Interfaces.csproj">
+      <Project>{46e01483-7287-4a89-8a1d-450c5536f4c6}</Project>
+      <Name>Analysis.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

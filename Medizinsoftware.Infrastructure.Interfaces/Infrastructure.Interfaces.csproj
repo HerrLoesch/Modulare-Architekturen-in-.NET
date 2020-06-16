@@ -7,8 +7,8 @@
     <ProjectGuid>{2898556E-125B-4125-8850-C286581362EF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Medizinsoftware.Infrastructure.Interfaces</RootNamespace>
-    <AssemblyName>Medizinsoftware.Infrastructure.Interfaces</AssemblyName>
+    <RootNamespace>Infrastructure.Interfaces</RootNamespace>
+    <AssemblyName>Infrastructure.Interfaces</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

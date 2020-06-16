@@ -103,6 +103,10 @@
       <Project>{56f5e045-06e9-4394-b98a-bd87ca4c4da4}</Project>
       <Name>Measurement.Module</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Medizinsoftware.Infrastructure.Interfaces\Infrastructure.Interfaces.csproj">
+      <Project>{2898556e-125b-4125-8850-c286581362ef}</Project>
+      <Name>Infrastructure.Interfaces</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Patient.Module\Patient.Module.csproj">
       <Project>{db29f586-2af9-4166-9062-17c70bc285e5}</Project>
       <Name>Patient.Module</Name>

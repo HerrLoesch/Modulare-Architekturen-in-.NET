@@ -47,7 +47,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patient.Data", "Patient.Dat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patient.Module", "Patient.Module\Patient.Module.csproj", "{DB29F586-2AF9-4166-9062-17C70BC285E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medizinsoftware.Infrastructure.Interfaces", "Medizinsoftware.Infrastructure.Interfaces\Medizinsoftware.Infrastructure.Interfaces.csproj", "{2898556E-125B-4125-8850-C286581362EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Interfaces", "Medizinsoftware.Infrastructure.Interfaces\Infrastructure.Interfaces.csproj", "{2898556E-125B-4125-8850-C286581362EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
