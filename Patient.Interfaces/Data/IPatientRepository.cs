@@ -10,5 +10,6 @@ namespace Patient.Interfaces.Data
     public interface IPatientRepository
     {
         IEnumerable<PatientEntity> GetAll();
+        PatientEntity GetBy(int id);
     }
 }

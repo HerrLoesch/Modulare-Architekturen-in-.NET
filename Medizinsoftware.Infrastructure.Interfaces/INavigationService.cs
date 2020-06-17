@@ -4,10 +4,10 @@ namespace Infrastructure.Interfaces
 {
     public interface INavigationService
     {
-        void Next();
+        void Next(int id);
         
         void Back();
 
-        void NavigateTo(Type moduleType);
+        void NavigateTo(Type moduleType, int? id = null);
     }
 }

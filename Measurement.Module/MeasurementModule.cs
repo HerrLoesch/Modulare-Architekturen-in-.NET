@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
 using Measurement.UI;
+using Measurement.UI.Views;
 
 namespace Measurement.Module
 {

@@ -70,7 +70,8 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MeasurementView.xaml.cs">
+    <Compile Include="ViewModels\MeasurementViewModel.cs" />
+    <Compile Include="Views\MeasurementView.xaml.cs">
       <DependentUpon>MeasurementView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -101,12 +102,17 @@
       <Project>{9b4e8fe2-1e6d-4a1c-95cb-9780d9945b28}</Project>
       <Name>Measurement.Interfaces</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Patient.Interfaces\Patient.Interfaces.csproj">
+      <Project>{7171C5E0-75FA-4143-B969-E5247404D922}</Project>
+      <Name>Patient.Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="MeasurementView.xaml">
+    <Page Include="Views\MeasurementView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

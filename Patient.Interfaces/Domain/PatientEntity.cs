@@ -10,5 +10,6 @@ namespace Patient.Interfaces.Domain
     {
         public string Firstname { get; set; }
         public string Lastname { get; set; }
+        public int Id { get; set; }
     }
 }

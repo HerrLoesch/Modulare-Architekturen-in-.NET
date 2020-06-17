@@ -48,7 +48,7 @@ namespace Patient.UI.ViewModels
 
         private void GoToNext()
         {
-            navigationService.Next();
+            navigationService.Next(SelectedPatient.Id);
         }
     }
 }

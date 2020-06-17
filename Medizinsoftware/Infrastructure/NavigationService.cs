@@ -18,10 +18,21 @@ namespace Medizinsoftware.Infrastructure
             this.regionManager = regionManager;
         }
 
-        public void NavigateTo(Type moduleType)
+        public void NavigateTo(Type moduleType, int? id = null)
         {
             var viewType = registry[moduleType];
-            this.regionManager.RequestNavigate("MainRegion", new Uri(viewType.Name, UriKind.Relative));
+
+            if (id != null)
+            {
+                var navigationParameters = new NavigationParameters();
+                navigationParameters.Add("id", id);
+
+                this.regionManager.RequestNavigate("MainRegion", new Uri(viewType.Name, UriKind.Relative), navigationParameters);
+            }
+            else
+            {
+                this.regionManager.RequestNavigate("MainRegion", new Uri(viewType.Name, UriKind.Relative));
+            }
 
             this.currentPosition = moduleType;
         }
@@ -30,16 +41,16 @@ namespace Medizinsoftware.Infrastructure
         {
             var position = this.moduleTypes.IndexOf(currentPosition);
             var nextType = this.moduleTypes[--position];
-
+            
             this.NavigateTo(nextType);
         }
 
-        public void Next()
+        public void Next(int id)
         {
             var position = this.moduleTypes.IndexOf(currentPosition);
             var nextType = this.moduleTypes[++position];
 
-            this.NavigateTo(nextType);
+            this.NavigateTo(nextType, id);
         }
 
         public void RegisterNavigationStep(Type moduleType, Type stepView)
