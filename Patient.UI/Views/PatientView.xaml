@@ -9,6 +9,44 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid Background="Aqua">
-            <Button Height="35" Width="150" Command="{Binding NavigateNextCommand}">Weiter</Button>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="35"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+
+        <ListBox Grid.RowSpan="2" ItemsSource="{Binding AvailablePatients}" SelectedItem="{Binding SelectedPatient}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Firstname}"> </TextBlock> 
+                        <TextBlock Text="{Binding Lastname}"> </TextBlock> 
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label HorizontalAlignment="Right">Vorname:</Label>
+            <Label HorizontalAlignment="Right" Grid.Row="1">Nachname:</Label>
+
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding SelectedPatient.Firstname}"></TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding SelectedPatient.Lastname}"></TextBlock>
+        </Grid>
+
+        <Button Grid.Row="2" Grid.Column="2" Width="75" HorizontalAlignment="Right" Command="{Binding NavigateNextCommand}">Weiter</Button>
     </Grid>
 </UserControl>

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
+using Patient.Data;
+using Patient.Interfaces.Data;
 using Patient.UI;
 using Patient.UI.Views;
 
@@ -28,7 +30,7 @@ namespace Patient.Module
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            
+            containerRegistry.RegisterSingleton<IPatientRepository, PatientRepository>();
         }
     }
 }
