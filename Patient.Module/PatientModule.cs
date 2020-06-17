@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Infrastructure.Interfaces;
 using Patient.UI;
 
 namespace Patient.Module
@@ -16,6 +17,9 @@ namespace Patient.Module
         {
             var regionManager = containerProvider.Resolve<IRegionManager>();
             regionManager.RegisterViewWithRegion("MainRegion", typeof(PatientView));
+
+            var navigationRegistry = containerProvider.Resolve<INavigationRegistry>();
+            navigationRegistry.RegisterNavigationStep(typeof(PatientModule), typeof(PatientView));
         }
 
         public void RegisterTypes(IContainerRegistry containerRegistry)

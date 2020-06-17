@@ -5,6 +5,8 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using Infrastructure.Interfaces;
+using Medizinsoftware.Infrastructure;
 using Measurement.Module;
 using Patient.Module;
 using Prism.Ioc;
@@ -36,7 +38,9 @@ namespace Medizinsoftware
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            
+            var navigationService = Container.Resolve<NavigationService>();
+            containerRegistry.RegisterInstance(typeof(INavigationRegistry), navigationService);
+            containerRegistry.RegisterInstance(typeof(INavigationService), navigationService);
         }
     }
 }

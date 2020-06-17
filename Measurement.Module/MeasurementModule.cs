@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Infrastructure.Interfaces;
 using Measurement.UI;
 
 namespace Measurement.Module
@@ -16,6 +17,9 @@ namespace Measurement.Module
         {
             var regionManager = containerProvider.Resolve<IRegionManager>();
             regionManager.RegisterViewWithRegion("MainRegion", typeof(MeasurementView));
+
+            var navigationRegistry = containerProvider.Resolve<INavigationRegistry>();
+            navigationRegistry.RegisterNavigationStep(typeof(MeasurementModule), typeof(MeasurementView));
         }
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
